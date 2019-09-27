@@ -28,8 +28,8 @@ main() {
 
   test('Should have correct initial state', () {
     expect(
-      LoginInitial(),
       loginBloc.initialState,
+      LoginInitial(),
     );
   });
 

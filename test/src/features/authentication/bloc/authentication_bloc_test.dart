@@ -17,8 +17,8 @@ main() {
 
   test('Should have correct initial state', () {
     expect(
-      AuthenticationUninitialized(),
       authenticationBloc.initialState,
+      AuthenticationUninitialized(),
     );
   });
 
